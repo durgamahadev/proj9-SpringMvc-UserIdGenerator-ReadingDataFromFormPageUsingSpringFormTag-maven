@@ -50,7 +50,7 @@
 <tr>
 <td><input type="submit" value="Submit" style="cursor: pointer;background-color:aqua; ;color: orange;font-size: medium; font-family: monospace;width: 180px; height: 50px" ></td>
 <td><input type="reset" value="Reset" style="cursor: pointer;background-color:aqua; ;color: orange;font-size: medium; font-family: monospace;width: 180px; height: 50px" ></td>
-<td><a href="home" style="cursor: pointer;background-color:aqua; ;color: orange;font-size: medium; font-family: monospace;max-width : 280px; max-height: 80px" >Back</a></td>
+<td><a href="${pageContext.request.contextPath}/" style="cursor: pointer;background-color:aqua; ;color: orange;font-size: medium; font-family: monospace;max-width : 280px; max-height: 80px" >Back</a></td>
 </tr>
 </table> 
 </form:form>

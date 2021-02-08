@@ -50,8 +50,8 @@
   
   
 <tr>
-<th><a href="home" style="background-color:white;font-size: large;">Home Page</a></th>
-<th><a href="form" style="background-color:white;font-size: large;">Form Page</a></th>
+<th><a href="${pageContext.request.contextPath}/" style="background-color:white;font-size: large;">Home Page</a></th>
+<th><a href="${pageContext.request.contextPath}/form" style="background-color:white;font-size: large;">Form Page</a></th>
 
 </tr>
 
