@@ -14,13 +14,6 @@ public class HomeController {
 		System.out.println("INFO : homePage() got executed");
 		return "home";
 	}
-
-	@GetMapping("/home")
-	public void home() {
-		System.out.println("INFO : home() got executed");
-		this.homePage();
-	}
-
 	@GetMapping("/form")
 	public String goToFormPage(Model model) {
 		model.addAttribute("candidate", new Candidate());
